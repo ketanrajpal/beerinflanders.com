@@ -1,0 +1,159 @@
+@import url("reset.css");
+@import url("hover-min.css");
+@import url("jquery.bxslider.css");
+@import url("../font/font-awesome/css/font-awesome.min.css");
+@import url("../font/FlandersArtSans/stylesheet.css");
+@import url("../font/FlandersArtSerif/stylesheet.css");
+.sepration {
+	width: 80%;
+	background-color: #FFF;
+	height: 2px;
+	margin: 10px auto;
+}
+#home {
+	background-color: #FFED00;
+}
+header {
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-family: 'flanders_art_serifbold';
+}
+#banner article div {
+	padding: 5px;
+}
+p span {
+	border-bottom: 2px solid #fff;
+	font-family: 'flanders_art_serifbold';
+}
+#banner p, .application {
+	line-height: 150%;
+	font-size: 14px;
+	text-align: justify;
+	font-family: 'flanders_art_serifregular';
+}
+#banner p a {
+	color: #000;
+	font-family: 'flanders_art_serifbold';
+}
+.application {
+	padding: 10px 5px;
+}
+#image {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+.button {
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	background-color: #000;
+	color: #FFF;
+	margin: 10px auto;
+	border-radius: 4px;
+	width: 300px;
+	font-family: 'flanders_art_serifbold';
+}
+
+#travel
+{
+	padding:10px 0px;
+	background-color:rgba(255,255,255,0.5);
+	margin:10px 0px;
+	border-radius:10px;
+	box-shadow:1px 1px 1px #999;
+}
+
+#travel ul
+{
+	margin:10px 0px;
+}
+
+#travel li
+{
+	list-style:disc;
+	line-height:150%;
+	margin-left:40px;
+	font-size:14px;
+}
+
+#travel div
+{
+	float:left;
+}
+
+#travel img
+{
+	width:100px;
+	padding:15px;
+}
+
+#travel div:nth-child(1), #travel div:nth-child(3)
+{
+	width:130px;
+}
+
+
+#travel div:nth-child(2) p
+{
+	margin:10px 0px;
+	text-align:center;
+}
+#travel p
+{
+	line-height:150%;
+	font-size:14px;
+}
+
+#travel div:nth-child(2)
+{
+	width:370px;
+	margin:0px 10px;
+}
+
+.main-link
+{
+	font-family: 'flanders_art_serifbold';
+	font-size:20px;
+	line-height:150%;
+	font-weight:bold;
+	text-align:center;
+	display:block;
+}
+
+ @media only screen and (max-width: 519px) {
+}
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+}
+@media only screen and (min-width: 980px) and (max-width: 1229px) {
+}
+@media only screen and (min-width: 1230px) {
+#home {
+	width: 650px;
+	margin:auto;
+	padding: 20px 20px;
+	box-shadow:0px 1px 1px #000;
+}
+#home article:nth-child(1) {
+	width: 330px;
+	float: left;
+}
+#home article:nth-child(2) {
+	width: 300px;
+	float: right;
+}
+#home article:nth-child(3) {
+	width: 325px;
+	float: left;
+}
+#home article:nth-child(4) {
+	width: 325px;
+	float: right;
+}
+}

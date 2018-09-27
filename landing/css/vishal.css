@@ -1,0 +1,13 @@
+.heading-primary {
+  font-size:20px;
+  padding:20px;
+  text-align:center;
+}
+.accordion-list {
+   border:1px solid #ddd;
+   &:after {
+       content: "";
+       display:block;
+       height:10px;
+       width:100%;
+       }

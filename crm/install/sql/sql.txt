@@ -1,0 +1,55 @@
+
+--
+-- Table structure for table `tbl_forms`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_forms` (
+  `forms_id` int(11) NOT NULL auto_increment,
+  `active` varchar(1) NOT NULL,
+  `rlog_create_date_time` datetime default NULL,
+  `rlog_create_user_type` varchar(1) default NULL,
+  `rlog_create_user_id` int(11) default NULL,
+  `rlog_create_user_name` varchar(15) default NULL,
+  `rlog_edit_date_time` datetime default NULL,
+  `rlog_edit_user_type` varchar(1) default NULL,
+  `rlog_edit_user_id` int(11) default NULL,
+  `rlog_edit_user_name` varchar(15) default NULL,
+  `name` varchar(36) default NULL,
+  `email` varchar(100) default NULL,
+  `tel` varchar(36) default NULL,
+  `subject` varchar(64) default NULL,
+  `message` text default NULL,
+  PRIMARY KEY  (`forms_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=1001 DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_staff`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_staff` (
+  `staff_id` int(11) NOT NULL auto_increment,
+  `active` varchar(1) NOT NULL,
+  `group_id` int(11) NOT NULL,
+  `username` varchar(15) default NULL,
+  `password` varchar(50) default NULL,
+  `rlog_create_date_time` datetime default NULL,
+  `rlog_create_user_type` varchar(1) default NULL,
+  `rlog_create_user_id` int(11) default NULL,
+  `rlog_create_user_name` varchar(15) default NULL,
+  `rlog_edit_date_time` datetime default NULL,
+  `rlog_edit_user_type` varchar(1) default NULL,
+  `rlog_edit_user_id` int(11) default NULL,
+  `rlog_edit_user_name` varchar(15) default NULL,
+  `rlog_last_login_date_time` datetime default NULL,
+  `email` varchar(100) default NULL,
+  `name` varchar(64) default NULL,
+  PRIMARY KEY  (`staff_id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=MyISAM  AUTO_INCREMENT=1002  DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `tbl_staff` (`staff_id`, `active`, `group_id`, `username`, `password`, `rlog_create_date_time`, `rlog_create_user_type`, `rlog_create_user_id`, `rlog_create_user_name`, `rlog_edit_date_time`, `rlog_edit_user_type`, `rlog_edit_user_id`, `rlog_edit_user_name`, `rlog_last_login_date_time`, `email`, `name`) VALUES
+(1001, 'Y', 1001, 'admin', 'password', '2010-01-01 00:00:00', 'S', 1001, 'admin', '2010-01-01 00:00:00', 'S', 1001, 'admin', '2010-01-01 00:00:00', 'admin@admin.com', 'Administrator');
+

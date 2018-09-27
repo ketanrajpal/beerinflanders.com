@@ -1,0 +1,2 @@
+<title>比利时啤酒</title>
+<meta name="description" content="The art of brewing beer is as old as civilisation and originated in Mesopotamia in 9000 BC. Over time, beer found its way to Gaul via Egypt and the Roman Empire. Initially, beer brewing was a household task and the first brewers were women.">

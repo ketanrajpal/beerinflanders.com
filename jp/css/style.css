@@ -1,0 +1,400 @@
+@import url("reset.css");
+@import url("skin.css");
+@import url("slicknav.css");
+@import url("../font/css/font-awesome.min.css");
+@import url("jquery.bxslider.css");
+@import url("../font/FlandersArtSans/stylesheet.css");
+@import url("../font/FlandersArtSerif/stylesheet.css");
+body {
+	height: 100%;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+header, footer {
+	background-color: #FFED00;
+}
+header article {
+	font-family: 'flanders_art_serifbold';
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+	line-height: 200%;
+	margin-top: 5px;
+	text-transform: uppercase;
+	float: left;
+}
+#logo
+{
+	float:left;
+	height:60px;
+	padding:10px 0px;
+	margin-right:30px;
+}
+header nav {
+	float: right;
+}
+header .submenu ul
+{
+	position:absolute;
+	background-color: #FFED00;
+	padding-top:32px;
+	display:none;
+}
+header .submenu ul li
+{
+	float:none;
+	margin:0px;
+}
+header .submenu ul li a
+{
+	display:block;
+	padding:10px 15px;
+	color:#000;
+}
+header .submenu ul li a:hover
+{
+	background-color: #000;
+	color:#fff;
+}
+header nav li {
+	float: left;
+	font-size: 15px;
+	color: #000;
+	font-family: 'flanders_art_serifregular';
+	margin-left: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+header nav li a {
+	color: #000;
+}
+header nav li a.current, p strong {
+	font-weight: 700;
+}
+p a {
+	color: #FFED00;
+}
+.dark {
+	background-color: #f5f5f5;
+	padding: 100px 0px;
+}
+.light {
+	padding: 100px 0px;
+}
+.dark h1, .light h1 {
+	font-family: 'flanders_art_serifbold';
+	font-size: 35px;
+	color: #000;
+	text-align: center;
+	line-height: 150%;
+	text-transform: uppercase;
+	margin:30px 0px;
+}
+.dark h2, .light h2 {
+	font-family: 'flanders_art_serifbold';
+	font-size: 20px;
+	color: #000;
+	line-height: 200%;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h3 {
+	font-family: 'flanders_art_serifbold';
+	font-size: 20px;
+	color: #000;
+	line-height: 200%;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align:center;
+	margin-top:40px;
+}
+.dark span.line, .light span.line {
+	display: block;
+	width: 50px;
+	height: 5px;
+	background-color: #FFED00;
+	margin-bottom: 30px;
+}
+.dark p, .light p {
+	width: 90%;
+	margin: auto;
+	font-size: 20px;
+	color: #000;
+	font-family: 'flanders_art_serifregular';
+	text-align: center;
+	line-height: 150%;
+}
+#styles article {
+	font-size: 16px;
+	color: #000;
+	font-family: 'flanders_art_serifregular';
+	line-height: 150%;
+}
+#styles article img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.dark a {
+	display: block;
+	background-color: #FFED00;
+	font-family: 'flanders_art_serifregular';
+	font-size: 17px;
+	width: 135px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 10px 20px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.dark a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+.dark a span {
+	color: #000;
+	margin-left: 5px;
+	display:inline-block;
+}
+.dark a:hover span {
+	color: #FFED00;
+}
+#factsfigures img, #unique img {
+	max-width: 975px;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#factsfigures {
+	text-align: center;
+	background-color: #363636;
+	padding: 100px 0px;
+}
+#contact-page {
+	margin-top: 30px;
+}
+
+#contact-page label {
+	display: block;
+	font-size: 14px;
+	font-family: 'flanders_art_serifregular';
+	line-height: 200%;
+}
+#contact-page input[type='text'], #contact-page input[type='email'], #contact-page textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px #ccc solid;
+}
+#contact-page input[type='text']:focus, #contact-page input[type='email']:focus, #contact-page textarea:focus {
+	border: 1px solid #ec0043;
+}
+#contact-page textarea {
+	width: 94%;
+	overflow: hidden;
+	height: 100px;
+}
+input[type=submit] {
+	padding: 8px 22px;
+	background-color: #FFED00;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+	transition: all 0.4s ease;
+}
+input[type=submit]:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+#more
+{
+	background-color: #FFED00;
+	padding:60px 0px;
+	font-family: 'flanders_art_serifbold';
+	font-size: 20px;
+	color: #000;
+	text-align:center;
+	line-height:150%;
+}
+
+#more span
+{
+	display:block;
+	margin-bottom:20px;
+}
+
+#more a img
+{
+	color:#000;
+	margin-left:10px;
+	display:inline-block;
+	border:2px solid #FFF;
+	padding:10px 20px;
+}
+
+#more a img:hover
+{
+	border:2px solid #000;
+}
+
+footer
+{
+	font-size: 14px;
+	font-family: 'flanders_art_serifregular';
+	line-height: 400%;
+}
+
+footer a
+{
+	font-family: 'flanders_art_serifbold';
+	color:#000;
+}
+
+footer li:nth-child(1)
+{
+	float:left;
+}
+
+footer li:nth-child(2)
+{
+	float:right;
+}
+
+ @media only screen and (max-width: 519px) {
+nav {
+	display: none;
+}
+#logoa
+{
+	width:90%;
+	margin:auto;
+	display:block;
+}
+#styles article {
+	width: 80%;
+	margin: 2% auto;
+	padding: 1%;
+}
+#contact-page {
+	width: 80%;
+	margin: auto;
+}
+#contact-page fieldset
+{
+	width:90%;
+	margin-right:0px;
+}
+}
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+nav {
+	display: none;
+}
+#logoa
+{
+	width:90%;
+	margin:auto;
+	display:block;
+}
+#styles article {
+	width: 50%;
+	margin: 2% auto;
+	padding: 1%;
+}
+#contact-page {
+	width: 500px;
+	margin: auto;
+}
+}
+@media only screen and (min-width: 980px) and (max-width: 1229px) {
+nav {
+	display: none;
+}
+#logoa
+{
+	width:90%;
+	margin:auto;
+	display:block;
+}
+#styles article {
+	width: 27%;
+	margin: 2%;
+	padding: 1%;
+	float: left;
+}
+#contact-page {
+	width: 900px;
+	margin: auto;
+}
+}
+@media only screen and (min-width: 1230px) {
+	 #logoa
+{
+	width:450px;
+	margin:0px;
+}
+header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 999;
+}
+header section, footer ul {
+	width: 1250px;
+	margin: auto;
+}
+header nav {
+	margin-top: 38px;
+}
+#styles article {
+	width: 27%;
+	margin: 2%;
+	padding: 1%;
+	float: left;
+}
+#contact-page {
+	width: 1080px;
+	margin: auto;
+}
+.slicknav_menu {
+	display: none !important;
+}
+nav
+{
+	display:block;
+}
+#contact-page fieldset:nth-child(1), #contact-page fieldset:nth-child(2), #contact-page fieldset:nth-child(3) {
+	width: 300px;
+	float: left;
+	margin-right: 60px;
+}
+}
+.scrollup{
+	font-size:30px;
+	height:50px;
+	width:50px;
+	line-height:40px;
+	text-align:center;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    display:none;
+	background-color: #FFED00;
+	color:#FFF;
+	border-radius:50%;
+	opacity:0.5;
+}
+
+.scrollup span
+{
+	line-height:50px;
+}
+
+.scrollup:hover{
+	background-color: #000;
+}

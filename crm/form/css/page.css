@@ -1,0 +1,244 @@
+
+/*
+=================================================================
+Global
+=================================================================
+*/
+
+input,
+textarea,
+select
+{
+	background-color:white;
+}
+
+/*
+=================================================================
+Structure
+=================================================================
+*/
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+#main_div {
+	border:1px solid #f0f0f0;
+	width:540px;
+	margin:20px auto;
+	padding:10px 10px;
+}
+
+#clearzone {
+	clear:both;
+}
+
+.copyright {
+	color : #808080;
+	font-size : 12px;
+	margin-top : 10px;
+}
+
+/*
+=================================================================
+Link
+=================================================================
+*/
+
+a:link {
+	color: #3e83c9;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #3e83c9;
+	text-decoration:none;
+}
+
+a:active {
+	color: #3e83c9;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #00b000;
+	text-decoration:underline;
+}
+
+/*
+=================================================================
+Detail Page
+=================================================================
+*/
+
+td.column_caption {
+	color:#606060;
+	width: 200px;
+	font-size: 100%;
+	text-align: right;
+	padding: 5px 5px;
+}
+
+td.column_value {
+	font-size: 100%;
+	text-align: left;
+	padding: 5px 5px;
+}
+
+.required {
+	color: #FF0000;
+}
+
+.instruction {
+	color:#808080;
+	padding:0 0 10px 0;
+	font-weight:bold;
+}
+
+td.column_value,
+.field-table1 input,
+.field-table1 textarea,
+.field-table1 select,
+.field-table2 input,
+.field-table2 textarea,
+.field-table2 select
+{
+	font-family:
+		Verdana,
+		Arial,
+		Helvetica,
+		sans-serif;
+	font-size:13px;
+}
+
+.field-table1 input,
+.field-table1 textarea,
+.field-table1 select
+{
+	padding:3px;
+	border:1px solid #d0d0d0;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.form-button {
+	cursor:pointer;
+	width:100px;
+	font-weight:bold;
+	padding:3px 10px;
+	border:6px solid #d0d0d0;
+
+	-moz-box-shadow:    3px 3px 5px 2px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 2px #ccc;
+	box-shadow:         3px 3px 5px 2px #ccc;
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	border-radius: 15px;
+}
+
+
+/*
+=================================================================
+Error Field
+=================================================================
+*/
+
+.zb_error {
+	border:3px solid #ff8080;
+	background-color:#ffe0e0;
+}
+
+/*
+=================================================================
+Info Box
+=================================================================
+*/
+
+div.info_box {
+	margin:10px 0 10px 0;
+	padding:10px 10px 10px 10px;
+	font-weight:bold;
+	text-align:left;
+	color:#008000;
+	border:1px #008000 solid;
+	background-color:#e0ffe0
+
+	-moz-box-shadow:    3px 3px 5px 2px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 2px #ccc;
+	box-shadow:         3px 3px 5px 2px #ccc;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.err_box {
+	margin:10px 0 10px 0;
+	padding:10px 10px 10px 10px;
+	font-weight:bold;
+	text-align:left;
+	color:#ff0000;
+	border:1px #ff0000 solid;
+	background-color:#ffe0e0;
+
+	-moz-box-shadow:    3px 3px 5px 2px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 2px #ccc;
+	box-shadow:         3px 3px 5px 2px #ccc;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*
+=================================================================
+Section
+=================================================================
+*/
+
+.sect_title {
+	margin-left:20px;
+	padding:5px;
+	color:#3e83c9;
+	background-color:white;
+	position:relative;
+	top:10px;
+	font-weight: bold;
+}
+
+/* Rounded Corner Box */
+
+.sect_outer_box { margin-top:0px; margin-bottom:0px; }
+.sect_inner_box { padding:15px 15px 15px 15px; }
+.sect_top { background: url(../images/box_border/dot.gif) 0 0 repeat-x; }
+.sect_bottom { background: url(../images/box_border/dot.gif) 0 100% repeat-x; }
+.sect_left { background: url(../images/box_border/dot.gif) 0 0 repeat-y; }
+.sect_right { background: url(../images/box_border/dot.gif) 100% 0 repeat-y; }
+.sect_top_left { background: url(../images/box_border/tl.gif) 0 0 no-repeat; }
+.sect_top_right { background: url(../images/box_border/tr.gif) 100% 0 no-repeat; }
+.sect_bottom_left { background: url(../images/box_border/bl.gif) 0 100% no-repeat; }
+.sect_bottom_right { background: url(../images/box_border/br.gif) 100% 100% no-repeat; }
+
+/*
+=================================================================
+Icon Buttons
+=================================================================
+*/
+
+.btn_icon_edit {
+	margin:2px 0 0 0;
+}
+
+/*
+=================================================================
+END OF FILE
+=================================================================
+*/

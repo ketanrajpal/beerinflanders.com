@@ -1,0 +1,19 @@
+[11-Nov-2015 18:10:52 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/beerinflanders/public_html/ch/home/contact.php on line 7
+[11-Nov-2015 18:10:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beerinflanders/public_html/ch/home/contact.php:7) in /home/beerinflanders/public_html/ch/home/contact.php on line 10
+[11-Nov-2015 19:03:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beerinflanders/public_html/ch/home/contact.php:8) in /home/beerinflanders/public_html/ch/home/contact.php on line 14
+[11-Nov-2015 19:04:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beerinflanders/public_html/ch/home/contact.php:8) in /home/beerinflanders/public_html/ch/home/contact.php on line 14
+[11-Nov-2015 19:04:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beerinflanders/public_html/ch/home/contact.php:8) in /home/beerinflanders/public_html/ch/home/contact.php on line 14
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50545 Library:50626 in /home/beeriojf/public_html/ch/home/contact.php on line 2
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'beerinfl_user'@'localhost' (using password: YES) in /home/beeriojf/public_html/ch/home/contact.php on line 2
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/beeriojf/public_html/ch/home/contact.php on line 3
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_query(): Headers and client library minor version mismatch. Headers:50545 Library:50626 in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_query(): Access denied for user 'beeriojf'@'localhost' (using password: NO) in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  mysql_query(): A link to the server could not be established in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:17 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beeriojf/public_html/ch/home/contact.php:2) in /home/beeriojf/public_html/ch/home/contact.php on line 7
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50545 Library:50626 in /home/beeriojf/public_html/ch/home/contact.php on line 2
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_connect(): Access denied for user 'beerinfl_user'@'localhost' (using password: YES) in /home/beeriojf/public_html/ch/home/contact.php on line 2
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/beeriojf/public_html/ch/home/contact.php on line 3
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_query(): Headers and client library minor version mismatch. Headers:50545 Library:50626 in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_query(): Access denied for user 'beeriojf'@'localhost' (using password: NO) in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  mysql_query(): A link to the server could not be established in /home/beeriojf/public_html/ch/home/contact.php on line 6
+[16-Nov-2015 06:20:31 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/beeriojf/public_html/ch/home/contact.php:2) in /home/beeriojf/public_html/ch/home/contact.php on line 7
